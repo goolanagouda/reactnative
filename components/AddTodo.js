@@ -8,17 +8,18 @@ const changeHandler =(val)=>{
     //console.log(val);
     setText(val);
 }
+
   return (
       <View>
           <TextInput placeholder="Enter todo text" onChangeText={text=>{changeHandler(text)}} style={styles.textInput}/>
-          <Button onPress={()=>{handleSubmit(text)}} title='ADD TODO' style={styles.addTodoButton}/>
+          <Button onPress={()=>{handleSubmit(text)}} title='ADD TODO' style={{backgroundColor:'skyblue'}} />
       </View>
   );
 };
 
 const styles=StyleSheet.create({
     addTodoButton: {
-        backgroundColor:'coral',
+        backgroundColor:'skyblue'
     },
     textInput :{
         padding:15
