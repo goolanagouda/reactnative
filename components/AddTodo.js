@@ -5,7 +5,7 @@ import { Button, TextInput,StyleSheet,View } from "react-native";
 export default function AddTodo({handleSubmit}){
 const[text,setText] = useState("")
 const changeHandler =(val)=>{
-    console.log(val);
+    //console.log(val);
     setText(val);
 }
   return (

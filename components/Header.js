@@ -9,8 +9,8 @@ export const Header = () => {
 const styles = StyleSheet.create({
     header: {
         backgroundColor:'coral',
-        padding:20,
-        paddingTop:30
+        padding:15,
+        paddingTop:20
     },
     title: {
         textAlign:'center',
